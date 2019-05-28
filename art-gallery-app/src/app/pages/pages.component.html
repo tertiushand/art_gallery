@@ -1,9 +1,9 @@
 <header>
   <app-header (hamburgerState)="updateMenu($event)"></app-header>
 </header>
-<aside [@navbarState]="menuState">
+<aside>
   <app-sidebar></app-sidebar>
 </aside>
-<div class="main" [@mainState]="menuState">
+<div class="main">
   <router-outlet></router-outlet>
 </div>

@@ -2,16 +2,21 @@
 
 #main-nav {
     list-style: none;
+    width: 50%;
     padding: 0;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+
+    div {
+        float: left;
+    }
 
     li {
-        padding: 0.5em 1em 0.5em 2em;
-        border-left: solid 0.2em $sidebar-prim-color;
+        padding: 0.5em 1em 0.5em 1em;
     }
 
     li:hover {
         color: $sidebar-highlight-color-text;
-        border-left: solid 0.2em $sidebar-highlight-color-button;
     }
 
     ul {
@@ -19,15 +24,16 @@
         padding: 0;
         background-color: $sidebar-sec-color;
         overflow: hidden;
+        position: absolute;
+        z-index: 100;
         
         li {
             border-left: solid 0.2em $sidebar-sec-color;
-            padding: 0.25em 1em 0.25em 2em;
+            padding: 0.25em 1em 0.25em 1em;
         }
 
         li:hover {
             color: $sidebar-highlight-color-text;
-            border-left: solid 0.2em $sidebar-highlight-color-button; 
         }
     }
 }
@@ -35,5 +41,4 @@
 aside {
     background-color: $sidebar-prim-color;
     color: #798593;
-
 }
