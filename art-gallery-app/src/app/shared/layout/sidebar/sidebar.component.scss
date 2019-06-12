@@ -1,28 +1,20 @@
 @import "../../layout/styles/standard.scss";
 
 #main-nav {
-    list-style: none;
-    width: 50%;
-    padding: 0;
-    margin: 0 auto 0 auto;
-    overflow: auto;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 
     div {
-        float: left;
+        text-align: center;
     }
 
-    li {
-        padding: 0.5em 1em 0.5em 1em;
-    }
-
-    li:hover {
+    div:hover {
         color: $sidebar-highlight-color-text;
     }
 
     ul {
         list-style: none;
+        width: 100%;
         padding: 0;
         background-color: $sidebar-sec-color;
         overflow: hidden;
