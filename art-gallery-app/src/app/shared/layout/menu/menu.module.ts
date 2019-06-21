@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SidebarComponent } from './sidebar.component';
-import { SidebarConfig } from "./sidebar.config";
+import { MenuComponent } from './menu.component';
+import { MenuConfig } from "./menu.config";
 import { States } from '../../variables/states.variable';
 
 @NgModule({
@@ -10,10 +10,10 @@ import { States } from '../../variables/states.variable';
     CommonModule
   ],
   providers: [
-    SidebarConfig,
+    MenuConfig,
     States
   ],
-  declarations: [SidebarComponent],
-  exports: [SidebarComponent]
+  declarations: [MenuComponent],
+  exports: [MenuComponent]
 })
-export class SidebarModule { }
+export class MenuModule { }

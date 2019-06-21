@@ -8,15 +8,15 @@ import {
   transition
 } from '@angular/animations';
 
-import { SidebarConfig } from "./sidebar.config";
+import { MenuConfig } from "./menu.config";
 import { States } from '../../variables/states.variable';
-import { Nav } from './sidebar.type';
+import { Nav } from './menu.type';
 import { routes, MyRoute } from '../../../pages/pages-routing.module'
 
 @Component({
-  selector: 'app-sidebar',
-  templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss'],
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.scss'],
   animations: [
     trigger('subnavState', [
       state('inactive', style({
@@ -30,12 +30,12 @@ import { routes, MyRoute } from '../../../pages/pages-routing.module'
     ])
   ]
 })
-export class SidebarComponent implements OnInit {
+export class MenuComponent implements OnInit {
 
   private routes: Array<MyRoute> = Object.create(routes);
 
   constructor(
-    private navInfo: SidebarConfig,
+    private navInfo: MenuConfig,
     private router: Router,
     private states: States
   ) { }

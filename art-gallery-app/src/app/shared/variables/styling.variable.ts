@@ -1,5 +1,5 @@
 export class Styling {
-    sidebar = {
+    menu = {
         width: '12em'
     };
 

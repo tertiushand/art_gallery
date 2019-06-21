@@ -1,6 +1,6 @@
-import { Nav } from './sidebar.type';
+import { Nav } from './menu.type';
 
-export class SidebarConfig {
+export class MenuConfig {
     config: Array<Nav> =
     [
         {

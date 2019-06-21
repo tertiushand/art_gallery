@@ -1,0 +1,28 @@
+{
+    "site": {
+        "title": "Art Gallery",
+        "description": "A generic art gallery web app"
+    },
+    "pages": {
+        "home": {
+            "title": "Home"
+        },
+        "about": {
+            "title": "About Me",
+            "description": "This art gallery is for anyone to edit and have your own art gallery site."
+        },
+        "services": {
+            "title":"Services"
+        },
+        "gallery": {
+            "title": "Gallery"
+        },
+        "contact": {
+            "title":"Contact"
+        },
+        "other": {
+            "title": "More Info"
+        }
+
+    }
+}

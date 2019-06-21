@@ -1,38 +1,38 @@
 @import "../../layout/styles/standard.scss";
 
 #main-nav {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    
+    font-family: $font-secondary;
+    font-size: 0.8em;
+    text-transform: uppercase;
 
     div {
         text-align: center;
     }
 
     div:hover {
-        color: $sidebar-highlight-color-text;
+        color: $dark-quaternary;
     }
 
     ul {
         list-style: none;
+        color: $light-secondary;
+        text-transform: capitalize;
         width: 100%;
         padding: 0;
-        background-color: $sidebar-sec-color;
+        margin-top: 1.3em;
+        background-color: $dark-primary;
         overflow: hidden;
         position: absolute;
         z-index: 100;
         
         li {
-            border-left: solid 0.2em $sidebar-sec-color;
             padding: 0.25em 1em 0.25em 1em;
         }
 
         li:hover {
-            color: $sidebar-highlight-color-text;
+            background-color: $dark-secondary;
+            color: $light-primary;
         }
     }
-}
-
-aside {
-    background-color: $sidebar-prim-color;
-    color: #798593;
 }

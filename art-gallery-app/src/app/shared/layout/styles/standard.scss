@@ -1,18 +1,30 @@
-//Size of elements
-$sidebar-width: 12em; //This should always match the styling.variable.ts sidebar.width property!
-$header-height: 3em; //This should always match the styling.variable.ts header.height property!
+/**
+    This stylesheet is to establish the stardard style variables to be used on this site.
+**/
 
 /* COLORS */
 
-//Header colors
-$header-main-color: #000;
-$header-sidebar-color: #00bfe9;
+//Dark colors
+$dark-primary: #af9f7b;
+$dark-secondary: #dac390;
+$dark-tertiary: #848484;
+$dark-quaternary: #363d41;
 
-//Sidebar colors
-$sidebar-prim-color: #2f3a4c;
-$sidebar-sec-color: #262f3e;
-$sidebar-highlight-color-button: #2196F3;
-$sidebar-highlight-color-text: #000;
+//Light colors
+$light-primary: #FFF;
+$light-secondary: #ebebeb;
+$light-tertiary: #dac390;
+$light-quaternary: #636e74;
 
-//Main content window colors
-$main-background: #edeef2;
+/* SIZES */
+
+$title-large: 2em;
+$title-medium: 1.5em;
+$title-small: 1.1em;
+
+$standard: 1em;
+
+/* FONT FAMILIES */
+$font-primary: 'Roboto', sans-serif; //Default font
+$font-secondary: 'Raleway', sans-serif; //Menu
+$font-tertiary: 'Montserrat', sans-serif; //Bolder font

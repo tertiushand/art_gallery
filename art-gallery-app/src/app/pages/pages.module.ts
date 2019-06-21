@@ -7,7 +7,7 @@ import { Styling } from '../shared/variables/styling.variable';
 import { States } from '../shared/variables/states.variable';
 
 import { HeaderModule } from '../shared/layout/header/header.module';
-import { SidebarModule } from '../shared/layout/sidebar/sidebar.module';
+import { MenuModule } from '../shared/layout/menu/menu.module';
 
 import { DashboardModule } from './dashboard/dashboard.module';
 import { NormalModule } from './normal/normal.module';
@@ -20,7 +20,7 @@ import { DemoTablesModule } from './demo-tables/demo-tables.module';
     CommonModule,
     PagesRoutingModule,
     HeaderModule,
-    SidebarModule,
+    MenuModule,
     DashboardModule,
     NormalModule,
     DemoFormsModule,

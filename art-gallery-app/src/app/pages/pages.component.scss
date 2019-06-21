@@ -5,9 +5,20 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: $light-primary; 
 }
  
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: $light-quaternary; 
+}
+
+.defaults {
+    font-family: $font-primary
+}
+
+aside {
+    padding: 1em;
+    margin: 1em 0 1em 0;
+    border-top: 1px solid $light-secondary;
+    border-bottom: 1px solid $light-secondary;
 }
