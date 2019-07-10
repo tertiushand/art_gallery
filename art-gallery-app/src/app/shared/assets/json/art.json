@@ -1,0 +1,28 @@
+{
+    "photos": 
+    [
+        {
+            "filename": "beach.jpg",
+            "caption": "A Beach",
+            "align": "bottom"
+        },{
+            "filename": "bird.jpeg",
+            "caption": "Pretty Bird",
+            "align": "top"
+        },{
+            "filename": "buildings.jpg",
+            "caption": "Batman's View"
+        },{
+            "filename": "rain.jpeg",
+            "caption": "Standing in the Rain",
+            "align": "top"
+        },{
+            "filename": "streets.jpg",
+            "caption": "Wheeeeee"
+        },{
+            "filename": "surf.jpeg",
+            "caption": "Waiting for Waves"
+        }
+    ]
+    
+}

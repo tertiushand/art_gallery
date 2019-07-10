@@ -1,0 +1,44 @@
+@import "../../shared/layout/styles/standard.scss";
+
+.banner {
+    background-image: url('../../../assets/imgs/cathedral.jpg');
+    background-size: cover;
+    height: 6em;
+    font-family: $font-tertiary;
+    font-weight: 900;
+    font-size: $title-large;
+    color: $light-primary;
+    text-align: center;
+    div {
+        margin: auto;
+    }
+}
+
+main {
+    margin: 0 5%;
+}
+.art {
+    background-size: cover;
+    background-position: bottom;
+    height: 20em;
+    margin: 1em 5%;
+    text-align: center;
+    transition: 1s;
+}
+
+.caption {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+    bottom: 30px;
+}
+
+.selector {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+<div class="banner row">
+  <div class="col-12">
+    <p>Art Gallery</p>
+    <p>links</p>
+  </div>
+</div>
+
+<main>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-lg-3 work" *ngFor="let photo of photos; let i = index">
+      <div 
+        class="art"
+        [@artDisplay] = "activeArts[i]"
+        [ngStyle]="{'background-image': 'url(assets/imgs/art/'+photo.filename+')', 'background-position': photo.align?photo.align:center}"
+      ></div>
+      <div [@captionDisplay] = "activeArts[i]" class="caption">{{photo.caption}}</div>
+      <div class="selector" (mouseenter)="toggleArt(i)" (mouseleave)="toggleArt(i)"></div>
+    </div>
+  </div>
+</main>
