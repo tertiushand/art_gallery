@@ -1,5 +1,7 @@
 @import "../../shared/layout/styles/standard.scss";
 
+$stroke-width: 1px;
+
 .banner {
     background-image: url('../../../assets/imgs/cathedral.jpg');
     background-size: cover;
@@ -29,9 +31,13 @@ main {
 .caption {
     position: absolute;
     z-index: 2;
+    padding: 0.5em 0.8em;
+    height: 2.3em;
     top: 20%;
     left: 20%;
     bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
 }
 
 .selector {

@@ -19,14 +19,13 @@ import { BlockingProxy } from 'blocking-proxy';
   animations: [
     trigger('artDisplay', [
       state('true', style({
-        opacity: 0.5,
-        backgroundColor: 'black'
+        transform: 'scale(1.02)'
       })),
       state('false', style({
-        opacity: 1
+        transform: 'scale(1)'
       })),
       transition('true <=> false', [
-        animate('0.5s')
+        animate('0.2s')
       ])
     ]),
     trigger('captionDisplay', [
